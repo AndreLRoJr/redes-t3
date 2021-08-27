@@ -2,7 +2,7 @@
 
 Nesta prática, vamos implementar um protótipo de um protocolo compatível com o IPv4. A implementação será capaz de funcionar como *host*, como roteador, ou como ambos simultaneamente. Focaremos no plano de dados, ou seja, não implementaremos algoritmos de roteamento, apenas o encaminhamento com base em uma tabela previamente montada.
 
-Sua implementação deve ser realizada no arquivo `ip.py`, que já veio com um esqueleto em cima do qual você vai construir o seu código. Para ajudar na sua implementação, você pode chamar as funções e usar os valores que já vieram declarados no arquivo `iputils.py`. Pode ser útil, também, consultar a [página sobre o formato do datagrama IPv4](https://en.wikipedia.org/wiki/IPv4#Header) e a página sobre o [ formato das mensagens ICMP](https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol#Header) na Wikipedia.
+Sua implementação deve ser realizada no arquivo `ip.py`, que já veio com um esqueleto em cima do qual você vai construir o seu código. Para ajudar na sua implementação, você pode chamar as funções e usar os valores que já vieram declarados no arquivo [iputils.py](https://github.com/thotypous/redes-t3-grader/blob/main/iputils.py). Pode ser útil, também, consultar a [página sobre o formato do datagrama IPv4](https://en.wikipedia.org/wiki/IPv4#Header) e a página sobre o [ formato das mensagens ICMP](https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol#Header) na Wikipedia.
 
 Para testar seu código, execute `./run-grader`. Cada um dos testes vai usar a sua implementação como uma biblioteca, verificando se ela apresenta o comportamento esperado.
 
